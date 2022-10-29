@@ -24,7 +24,11 @@ p {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 1px solid red;
+    
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .logo {
     font-family: 'Raleway';
@@ -125,7 +129,7 @@ p {
 .hero {
     background: var(--background-color-hero);
     display: block;
-    text-align: center;
+    text-align: center;    
 }
 .hero-button {
     margin-top: 30px;
@@ -140,6 +144,12 @@ p {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+}
+.benefits-list {
+    display: flex;
+}
+.benefits-list .benefits-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 .benefits-title {
     font-family: 'Roboto';
@@ -160,6 +170,7 @@ p {
     color: var(--benefits-color);
 }
 .our-work-title {
+    margin-bottom: 50px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -167,6 +178,19 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
+}
+.our-work-list {
+    display: flex;
+    justify-content: center;
+}
+
+.our-work-item {
+    width: 370px;
+}
+.our-work-item:not(:last-child) {
+    margin-right: 30px;
+
+
 }
 .our-team-title {
     font-family: 'Roboto';
