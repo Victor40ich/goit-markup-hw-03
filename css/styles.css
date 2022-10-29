@@ -335,6 +335,7 @@ p {
 .examples-list {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .examples-list-link {
     margin-right: 30px;
@@ -343,6 +344,13 @@ p {
 .examples-list-link:nth-child(3n) {
     margin-right: 0;
 }
-.examples-list-link:nth-last-child(-n + 3) {
+.examples-list-item:nth-last-child(-n + 3) {
     margin-bottom: 30px;
+}
+.examples-list-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
