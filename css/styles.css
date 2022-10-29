@@ -342,10 +342,6 @@ p {
     flex-wrap: wrap;
     
 }
-.examples-list-link {
-    margin-right: 30px;
-    
-}
 .examples-list-item:nth-child(3n) {
     margin-right: 0;
 }
@@ -356,6 +352,10 @@ p {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px;
+}
+.examples {
+    margin-top: -4px;
+    padding: 0;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
