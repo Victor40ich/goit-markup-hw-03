@@ -110,10 +110,6 @@ p {
     color: var(--first-title-color);}
 
 /* Hero styles */
-.container {
-    display: flex;
-    align-items: center;
-}
 
 .hero-title {
     padding-top: 200px;
@@ -189,8 +185,14 @@ p {
 }
 .our-work-item:not(:last-child) {
     margin-right: 30px;
-
-
+}
+.our-team-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.our-team-item:not(:last-child) {
+    margin-right: 30px;
 }
 .our-team-title {
     font-family: 'Roboto';
@@ -208,6 +210,8 @@ p {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+    margin-top: 50px;
+    text-align: center;
     color: var(--main-color);
 }
 .team-position {
@@ -216,6 +220,7 @@ p {
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(--benefits-color);
 }
 .footer {
@@ -256,9 +261,16 @@ p {
     letter-spacing: 0.03em;
     color: var(--background-color);
 }
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer-link:hover,
 .footer-link:focus {
     color: var(--first-title-color)
+}
+.address {
+    margin-top: 20px;
 }
 .work-button {
         color: var(--main-color);
