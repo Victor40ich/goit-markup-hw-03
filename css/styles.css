@@ -21,7 +21,7 @@ p {
     background-color: var(--background-color);        
 }
 .container {
-    width: 1200px;
+    width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
     
@@ -108,6 +108,10 @@ p {
 .header-link:hover,
 .header-link:focus {
     color: var(--first-title-color);}
+.header-container-portfolio {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+}
 
 /* Hero styles */
 
@@ -140,6 +144,9 @@ p {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .benefits-list {
     display: flex;
@@ -283,6 +290,21 @@ p {
         text-align: center;
         letter-spacing: 0.03em;
 }
+.work-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.work-list-item:not(:last-child) {
+    margin-right: 8px;
+}
+.work-button {
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
 .work-button:hover,
 .work-button:focus {
     background: var(--first-title-color);
@@ -309,4 +331,18 @@ p {
 }
 .current {
     color: var(--first-title-color);
+}
+.examples-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.examples-list-link {
+    margin-right: 30px;
+    
+}
+.examples-list-link:nth-child(3n) {
+    margin-right: 0;
+}
+.examples-list-link:nth-last-child(-n + 3) {
+    margin-bottom: 30px;
 }
